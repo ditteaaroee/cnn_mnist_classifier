@@ -1,7 +1,9 @@
-import torch
-from tests import _PATH_DATA
-from src.data.make_dataset import mnist
 import os.path
+
+import torch
+
+from src.data.make_dataset import mnist
+from tests import _PATH_DATA
 
 # # Skipping tests if data not exists:
 # @pytest.mark.skipif(not os.path.exists(file_path), reason="Data files not found")

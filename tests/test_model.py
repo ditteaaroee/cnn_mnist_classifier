@@ -1,7 +1,9 @@
-import torch
-from src.models.predict_model import evaluate
-from src.models.model import mnist_cnn
 import pytest
+import torch
+
+from src.models.model import mnist_cnn
+from src.models.predict_model import evaluate
+
 
 def test_model():
     #check that input.shape == output.shape

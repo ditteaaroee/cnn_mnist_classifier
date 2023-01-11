@@ -8,3 +8,11 @@ seaborn==0.12.2
 setuptools==65.5.0
 torch==1.13.1
 wget==3.2
+dvc
+dvc[gdrive]
+
+# cookiecutter external requirements
+click==8.0.1
+coverage
+flake8
+mypy
