@@ -110,6 +110,7 @@ def main(input_filepath, output_filepath):
     train.save_preprocessed()
     print('\n\nFetching test data')
     test = mnist(train=False, in_folder=input_filepath, out_folder=output_filepath)
+    print(torch.unique(test.data))
     test.save_preprocessed()
 
 
